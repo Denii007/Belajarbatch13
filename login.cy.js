@@ -8,12 +8,4 @@ describe('Login Page', () => {
         cy.get('button[type="submit"]').should('be.visible');
     }); 
 
-     it('checkout logic while buying in website', () => {
-        cy.visit('/login');
-        cy.contains('Login to Your Account').should('be.visible');
-        cy.get('input[name="username"]').should('be.visible');
-        cy.get('input[name="password"]').should('be.visible');
-        cy.get('button[type="submit"]').should('be.visible');
-    }); 
-
 });
