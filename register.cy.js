@@ -1,4 +1,4 @@
-describe('Register Page', () => {
+describe('RegisterPage', () => {
 
     it('should load the login page', () => {
         cy.visit('/login');
